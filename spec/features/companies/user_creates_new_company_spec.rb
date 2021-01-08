@@ -12,4 +12,7 @@ describe "User creates a new company" do
     expect(page).to have_content("ESPN")
     expect(Company.count).to eq(1)
   end
+
+  xscenario "a user can create a new company without a city" do
+  end
 end

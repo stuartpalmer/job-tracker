@@ -12,4 +12,7 @@ describe "User edits an existing company" do
     expect(page).to have_content("EA Sports")
     expect(page).to_not have_content("ESPN")
   end
+
+  xscenario "an invalid company is specified" do
+  end
 end
